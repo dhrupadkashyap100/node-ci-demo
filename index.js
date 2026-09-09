@@ -1,5 +1,6 @@
-function add(a,b) {
-return a + b;
+function add(a,b){
 }
-console.log(add(5,10));
+return a+b // error
+
+console.log(add(5, 10));
 module.exports = add;
